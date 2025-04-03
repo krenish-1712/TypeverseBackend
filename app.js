@@ -13,7 +13,7 @@ var rankingRouter = require('./routes/ranking');
 var authRouter = require('./routes/authentication');
 
 const mongoose = require('mongoose');
-mongoose.connect('mongodb+srv://krenish:wDo6uzDYLb0HO313@pandya.f24t8.mongodb.net/?retryWrites=true&w=majority&appName=PANDYA')
+mongoose.connect('mongodb+srv://krenish123:N6GxaKzPnjRdRi8z@pandya.f24t8.mongodb.net/?retryWrites=true&w=majority&appName=PANDYA')
   .then(() => console.log('Connected!'))
   .catch(err => console.log('Error connecting'));
 
